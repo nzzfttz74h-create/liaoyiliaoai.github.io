@@ -1,0 +1,52 @@
+{
+  "file": "AI心理健康官网_设计稿",
+  "fileId": "718613691355027",
+  "savedAt": "2026-08-27",
+  "artboard": 1440,
+  "contentWidth": 1200,
+  "gutter": 120,
+  "navFooterContentWidth": 1312,
+  "navFooterGutter": 64,
+  "global": {
+    "nav": {"height": 72, "paddingLR": 64, "itemSpacing": 24},
+    "footer": {"paddingTB": "64/28", "paddingLR": 64, "itemSpacing": 36}
+  },
+  "pages": {
+    "home": {
+      "hero": {"paddingTB": "110/90", "gutter": 120, "chip": "8/16", "h1MaxW": 924, "leadMaxW": 760, "actionsGap": 22, "chatCard": {"w": 600, "pad": 24, "radius": 28, "gap": 14}},
+      "features": {"sectionPad": "90/50", "titleGap": 44, "grid": "2x2 gap24", "card": {"pad": 28, "radius": 20, "gap": 16, "chip": "48 r14"}},
+      "steps": {"sectionPad": "80/60", "titleGap": 44, "grid": "3 gap24", "card": {"pad": 28, "radius": 20, "gap": 14, "num": 44}},
+      "quotes": {"sectionPad": "80/60", "titleGap": 44, "grid": "3 gap24", "card": {"pad": 28, "radius": 20, "gap": 18, "ava": 40}},
+      "statsBand": {"pad": "56/56", "gap": 40, "num": 44},
+      "cta": {"sectionPad": "90/90", "card": {"w": 1000, "pad": 56, "radius": 28, "gap": 22}}
+    },
+    "about": {
+      "hero": {"pad": "80/56", "h1W": 900, "leadW": 760},
+      "beliefs": {"sectionPad": "40/50", "titleGap": 36, "grid": "3 gap24", "card": {"pad": 28, "radius": 20, "gap": 18}},
+      "story": {"sectionPad": "50/50", "titleGap": 30, "card": {"w": 1000, "pad": 40, "radius": 24, "gap": 22}, "milestoneGap": 16, "milestoneMarginTop": 22},
+      "team": {"sectionPad": "50/70", "titleGap": 32, "grid": "4 gap24", "card": {"pad": 24, "radius": 20, "gap": 14, "ava": 72}}
+    },
+    "products": {
+      "hero": {"pad": "80/56", "h1W": 900, "leadW": 760},
+      "productRows": {"card": {"pad": 36, "radius": 24, "gap": 28, "center": true}, "textCol": {"w": 520, "gap": 14}, "image": {"w": 440, "h": 280, "radius": 16}}
+    },
+    "careers": {
+      "hero": {"pad": "80/56", "h1W": 900, "leadW": 760},
+      "benefits": {"sectionPad": "50/40", "titleGap": 36, "grid": "4 gap24", "card": {"pad": 26, "radius": 20, "gap": 12, "chip": "40 r12"}},
+      "jobs": {"sectionPad": "40/70", "titleGap": 28, "rowGap": 16, "row": {"pad": "20/28", "radius": 16}}
+    },
+    "news": {
+      "hero": {"pad": "80/56", "h1W": 900, "leadW": 760},
+      "featured": {"radius": 24, "cover": {"w": 520, "h": 360}, "bodyPad": 40, "bodyGap": 16},
+      "list": {"sectionPad": "40/70", "titleGap": 28, "gap": 28, "card": {"pad": "24/28", "radius": 16, "gap": 24}}
+    }
+  },
+  "textDiffsFound": [
+    {"page": "about", "node": "2:196", "field": "story", "design": "补齐", "siteWas": "补气", "action": "site fixed to 补齐"},
+    {"page": "about-story", "change": "h2 已移除，仅保留 eyebrow '我们的故事'"},
+    {"page": "about-team", "change": "h2 已移除，仅保留 eyebrow '核心团队'"},
+    {"page": "careers-jobs", "change": "h2 已移除，仅保留 eyebrow '正在招募'"},
+    {"page": "news-list", "change": "h2 已移除，仅保留 eyebrow '最新动态'"}
+  ],
+  "decision_designDimensions": "不建议修改设计稿尺寸。设计稿 1440 画板 / 1200 内容 / 120 留白是标准网页栅格；官网在 1440 参考视口下已逐像素对齐。设计稿为唯一源头，官网跟随，避免双向漂移。"
+}
